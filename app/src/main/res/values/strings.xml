@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ML APIs</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="lbl_cual_imagen">Cual es tu Imagen?</string>
+    <string name="btn_objetos_imagen">Etiquetas</string>
+    <string name="btn_analis_sent_imagen">Analisis Sentimiento</string>
+    <string name="btn_caras">Caras</string>
+    <string name="btn_ocr_imagen">OCR</string>
+    <string name="seleccionar_imagen">Seleccionar Imagen</string>
+    <string name="tomar_foto">Tomar Foto</string>
+    <string name="origen_imagen">Origen de la Imagen</string>
+    <string name="objetos_imagen">Objetos de la Imagen</string>
+    <string name="sentimientos_imagen">Sentimientos</string>
+
+    <string name="vision_api_key">AIzaSyBjM6p5z2cJUj7-FYNIoWI1FpNPIcRuQGE</string>
+
+</resources>

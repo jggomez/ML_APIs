@@ -1,0 +1,73 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="co.devhack.machinelearningapis.fragments.LoadImageFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            style="@style/AppTheme.Letter.Header"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/md_content_padding_top"
+            android:text="@string/lbl_cual_imagen" />
+
+        <ImageView
+            android:id="@+id/imgvw"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginLeft="@dimen/control_margin"
+            android:layout_marginRight="@dimen/control_margin"
+            android:layout_marginTop="@dimen/control_margin"
+            android:layout_weight="0.7" />
+
+        <Button
+            android:id="@+id/btnEtiquetas"
+            style="@style/AppTheme.Boton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/boton_margin"
+            android:text="@string/btn_objetos_imagen" />
+
+        <Button
+            android:id="@+id/btnCaras"
+            style="@style/AppTheme.Boton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/boton_margin"
+            android:text="@string/btn_caras" />
+
+        <Button
+            android:id="@+id/btnAnalisisSent"
+            style="@style/AppTheme.Boton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/boton_margin"
+            android:text="@string/btn_analis_sent_imagen" />
+
+        <Button
+            android:id="@+id/btnOCR"
+            style="@style/AppTheme.Boton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/boton_margin"
+            android:text="@string/btn_ocr_imagen" />
+
+    </LinearLayout>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fbAddImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_margin="@dimen/floating_dimem"
+        android:src="@android:drawable/ic_menu_report_image"
+        android:textColor="@color/icons"
+        android:tint="@color/icons" />
+
+</FrameLayout>
